@@ -26,9 +26,10 @@ router.get("/:id", (req, res) => {
     }
 })
   .catch(err => {
-      console.log(err)res.status(500).json({message:err.message})
+      console.log(err)
+      res.status(500).json({message:err.message})
   })
-})
+});
 
 
 router.post('/', (req, res) => {
@@ -78,11 +79,11 @@ router.put('/:id', (req, res) => {
     })
 
 
-    router.use((err, req, res) => {
+    router.use((err, req, res, next) => {
         res.status(500).json({message: `error: ${err.message}`,
         stack: err.stack,
      })
-    })
+    });
     
     module.exports = router;
 

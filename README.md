@@ -147,6 +147,8 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+ Node allows the use of Javascript for the backend and the easy implementation of various packages and libraries. Express is to Node and React is to vanilla JS. It makes it much easier to use and work with.
 1. Understand and explain the use of Middleware.
 1. The basic principles of the REST architectural style.
 1. Understand and explain the use of Express Routers.
