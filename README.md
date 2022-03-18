@@ -150,6 +150,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
  Node allows the use of Javascript for the backend and the easy implementation of various packages and libraries. Express is to Node and React is to vanilla JS. It makes it much easier to use and work with.
 1. Understand and explain the use of Middleware.
+
+Middleware is a function that acts as a filter to keep code DRY and clean. It handles activity and logs errors and activity.
 1. The basic principles of the REST architectural style.
+
+REST stands for representational state. It is a protocol and architecture utilizing HTTP methods.
 1. Understand and explain the use of Express Routers.
+
+Express routers are semantic int he sense that they route traffic and activity. It is the middleware in action doing whatever logic it is told.
+
 1. Describe tooling used to manually test the correctness of an API.
+
+I really prefer HTTPie to Postman. Both essentially function the same. They are a means of testing our server and methods. Having it right on the command line is great.
